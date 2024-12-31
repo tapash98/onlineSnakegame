@@ -16,7 +16,9 @@
     height: 100vh;
     flex-direction: column;
     overflow: hidden;
+    margin: 0;
   }
+/* canvas{ position: fixed; } */
   
   /* Title of the game */
   h1 {
@@ -127,6 +129,7 @@
     position: absolute;
     margin-top: 42%;
 }
+
   
   /* Responsive design: Make the canvas and controls responsive for smaller screens */
   @media (max-width: 600px) {
